@@ -1,0 +1,130 @@
+.navBar{
+    
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    
+}
+
+
+.logo{
+    display: flex;
+    float: left;
+    flex: 2;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: 50px;
+        width:100px ;
+        object-fit: cover;
+    }
+    .menu{
+        display: none;
+    }
+
+    .menu1{
+        background-color: rgb(87, 87, 245);
+        border-radius: 10px;
+        padding: 3px;
+        margin-left: 120px;
+        height: 25px;
+        color: black;
+        width: 25px;
+    }
+
+}
+
+
+.links{
+    display: flex;
+    justify-content: end;
+    flex: 10;
+    gap: 20px;
+    align-items: center;
+
+
+    .icon{
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    .notification_pill{
+        position: relative;
+        span{
+            background-color: red;
+            border-radius: 50%;
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            top: -3px;
+            right:-2px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            color: white;
+            font-size: 12px;
+        }
+    }
+
+    .user{
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            border-radius: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+.links{
+    .user{
+        span{
+            display: none;
+        }
+    }
+}
+
+.navBar{
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .search{
+        float: left;
+    }
+}
+
+
+.logo .logoimg{
+    display: none;
+}
+
+.logo .menu{
+    display: block;
+    height: 25px;
+
+    width: 25px;
+}
+
+.menu1{
+    display: none;
+}
+
+}

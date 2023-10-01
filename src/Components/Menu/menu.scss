@@ -1,0 +1,69 @@
+// style for aech menu items 
+
+
+
+.item{
+     color: black;
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    text-decoration: none;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px 20px ;
+    border-radius: 15px;
+
+    img{
+        width: 15px;
+        height: 15px;
+        object-fit: cover;
+
+    }
+
+    
+}
+
+.item:hover{
+    background-color: rgb(236, 229, 229);
+    border-radius: 15px;
+}
+
+.listitem{
+   
+
+    .listTitle{
+        padding: 5px 10px;
+        font-weight: 500;
+        font-size: medium;
+        color: gray;
+       
+    }
+
+   
+
+    
+}
+
+
+.activeLink{
+    color: white;
+    background-color: rgb(87, 87, 245);
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 5px 20px ;
+    border-radius: 15px;
+
+
+
+    
+}
+
+.activeLink:hover{
+    background-color: rgb(87, 87, 245);
+    
+}
